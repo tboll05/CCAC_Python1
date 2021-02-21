@@ -1,0 +1,5 @@
+This is a method to reverse a string:
+Strings can be reversed using slicing. 
+To reverse a string, 
+we simply create a slice that starts with the length of the string, 
+and ends at index 0.

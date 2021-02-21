@@ -1,0 +1,35 @@
+phoneNumber = input("Enter the telephone number in the format XXX-XXX-XXXX: \n")
+
+firstPart = phoneNumber[:-8]
+secondPart = phoneNumber[-8:].lower()
+
+secondPart = secondPart.replace('a', '2')
+secondPart = secondPart.replace('b', '2')
+secondPart = secondPart.replace('c', '2')
+secondPart = secondPart.replace('d', '3')
+secondPart = secondPart.replace('e', '3')
+secondPart = secondPart.replace('f', '3')
+secondPart = secondPart.replace('g', '4')
+secondPart = secondPart.replace('h', '4')
+secondPart = secondPart.replace('i', '4')
+secondPart = secondPart.replace('j', '5')
+secondPart = secondPart.replace('k', '5')
+secondPart = secondPart.replace('l', '5')
+secondPart = secondPart.replace('m', '6')
+secondPart = secondPart.replace('n', '6')
+secondPart = secondPart.replace('o', '6')
+secondPart = secondPart.replace('p', '7')
+secondPart = secondPart.replace('q', '7')
+secondPart = secondPart.replace('r', '7')
+secondPart = secondPart.replace('s', '7')
+secondPart = secondPart.replace('t', '8')
+secondPart = secondPart.replace('u', '8')
+secondPart = secondPart.replace('v', '8')
+secondPart = secondPart.replace('w', '9')
+secondPart = secondPart.replace('x', '9')
+secondPart = secondPart.replace('y', '9')
+secondPart = secondPart.replace('z', '9')
+
+newNumber = firstPart + secondPart
+
+print('The phone number is', newNumber)
